@@ -1,0 +1,17 @@
+To send mail in Node.js using OAuth2 authentication, you can follow these steps:
+
+Set up OAuth2 credentials:
+
+    -> Create a project on the Google Cloud Platform (GCP) console.
+    -> Enable the Gmail API for the project.
+    -> Create OAuth2 credentials (client ID and client secret) for your application.
+    -> Set the authorized redirect URI(s) for your application.
+    -> Obtain the client ID and client secret.
+    -> Install the required dependencies:
+
+Install the nodemailer and googleapis packages using npm or yarn:
+
+    >>>npm install nodemailer googleapis
+
+
+Note: The code assumes that you have already obtained the access token (YOUR_ACCESS_TOKEN) through the OAuth2 authentication process. If you don't have an access token, you can follow the OAuth2 authorization flow to obtain it.
